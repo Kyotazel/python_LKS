@@ -1,0 +1,26 @@
+1. Paradigma Pemrograman
+   - Lama : Data menjadi Informasi
+   - Baru : Problem menjadi Solusi
+
+2. Expert System
+   - Bersumber dari manusia
+   - Knowledge Aquitition : Mengambil ilmu dari pakar / ahli
+
+3. Data Mining
+   - Bersumber dari data
+   - Analogi -> Menambang emas
+     a) Emas           : Knowledge (Sesuatu yang menarik/dicari)
+     b) Gunung         : Database  (Keseluruhan data)
+     c) Proses         : Preprocessing (Metode)
+     d) Bongkahan emas : Dataset (Data Kotor)
+     
+4. Bentuk - Bentuk Knowledge
+   - Rules (Association & Classification) IF kondisi Then Statement
+   - Cluster (Kelompok)
+   - Decision Tree (Pohon Keputusan)
+   - Regretion Tree
+
+5. Tugas Data Mining
+   - Classification : Sudah memiliki Target Attribute (Membentuk Rule nya)
+   - Clustering     : Mengelompokkan data yang memiliki karakter hampir similar
+   - Link Analysisi : Ketergantungan data

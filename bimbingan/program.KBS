@@ -1,0 +1,46 @@
+ACTIONS
+    DISPLAY "Program Playing Tennis [PRISM]"
+    FIND play
+    DISPLAY "Rekomendasi main : {play}."
+;
+
+RULE 1
+    IF OUTLOOK = Overcast
+    THEN play = Yes;
+
+RULE 2
+    IF HUMIDITY = Normal and
+    WINDY = False
+    THEN Play = Yes;
+
+RULE 3
+    IF TEMPERATUR = Mild and
+    HUMADITY = Normal
+    THEN Play = Yes;
+
+RULE 4
+    IF Windy = False and 
+    OUTLOOK = Rainy 
+    THEN Play = Yes;
+
+RULE 5
+    IF OUTLOOK = Sunny and 
+    HUMADITY = High 
+    THEN Play = no;
+
+RULE 6
+    IF WINDY = True and 
+    OUTLOOK = Rainy 
+    THEN Play = No
+
+ASK OUTLOOK: "Bagaimana cuaca hari ini?";
+CHOICES OUTLOOK: Rainy, Sunny, Overcast;
+
+ASK HUMADITY: "Bagaimana kelembaban/humadity hari ini?";
+CHOICES HUMADITY: high, Normal;
+
+ASK TEMPERATUR: "Bagaimana suhu / Temperatur saat ini?";
+CHOICES TEMPERATUR: Hot, Cool, Mild;
+
+ASK WINDY: "Bagaimana cuaca hari ini?";
+CHOICES WINDY: True, False;

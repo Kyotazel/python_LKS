@@ -1,0 +1,11 @@
+SIG (map data)
+
+Clusstering !Target --> Label
+
+One to one
+One to many
+many to many
+
+Algoritma harus
+1. Benar (Solusi ketemu)
+2. Efektif
